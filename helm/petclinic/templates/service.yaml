@@ -5,10 +5,10 @@ kind: Service
 metadata:
   name: petclinic-service
   labels:
-    app: petclinic-app
+    app: ikonic-app
 spec:
   selector:
-    app: petclinic-app
+    app: ikonic-app
   type: LoadBalancer
   ports:
   - nodePort: 32751
